@@ -1,0 +1,167 @@
+
+<head>
+  <script src="https://kit.fontawesome.com/7b499d65cc.js" crossorigin="anonymous"></script>
+  <link rel ="stylesheet" href="CSS/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Local</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <p class="free-delivery"><i class="fas fa-shipping-fast"></i> Free Delivery to Delta and Richmond</p>
+  <div class="wrapper">
+  
+    <div class="left">
+
+        <div class='logo-div'>
+          <img src="./images/logo.svg" alt="The Local Logo"/>
+        </div>
+
+        <nav class='left-nav-bar'>
+          <ul class="primary-nav">
+            <!-- <li><a href='#'>Deals</a></li> -->
+            
+            <li class="secondary-nav-container"><a href="#" id="shop">Shop</a>
+                <ul class="secondary-nav">
+                  <li><a href="./shop.html">Groceries</a></li>
+                  <li><a href="./shop.html">Electronics</a></li>
+                  <li><a href="./shop.html">Beauty</a></li>
+                </ul>
+            </li>
+            <li><a href='./delivery.html'>Delivery</a></li>
+            <!-- <li><a href='./payment.html'>Payment</a></li> -->
+            <li><a href='./membership.html'>Membership</a></li>
+            <li><a href='./contacts.html'>Contacts</a></li>
+            <li><a class="number" href="./payment.html">
+              <i class="fas fa-shopping-cart"></i>
+              <p id="items-num"></p>
+            </a></li>
+  
+          </ul>
+        </nav>
+    </div>
+  
+    <div class="middle">
+
+      <ul class='navbar1 top'> 
+        <li><a href="./partners.html">LOCAL PARTNERS </a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./about.html">ABOUT US</a></li>
+      </ul>
+
+        <div class='images'>
+
+          <div class="main-image">
+            <p class="desc">Acer laptop: $1099</p>
+            <a href="./shop.html"><img src="images/woman-shopping-lap.jpg" alt='Woman shopping on labtop'/></a>
+          </div>
+
+          <div class="grocery-image">
+            <p class="desc">Tomatoes: $2.99</p>
+            <a href="shop.html"><img src="images/tomatoes-bowl.jpg" alt='Bowl of Tomatoes' /></a>
+          </div>
+          
+          <div class="makeup-image">
+            <p class="desc">Makeup kit: $19.99</p>
+            <img src="images/makeup.jpg" alt='Makeup' />
+          </div>
+
+
+          <div class="smart-watch-image">
+            <p class="desc">Smart watch: $250</p>
+            <a href="shop.html"><img src="images/smart-watch.jpg" alt='Smart Watch' /></a>
+          </div>
+
+        </div>
+        <footer class='social-media-links' >
+          <a class="individual-social-link" href="https://www.facebook.com/" target="blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a class="individual-social-link" href="https://www.instagram.com/" target="blank">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+          <a class="individual-social-link" href="https://twitter.com/home?lang=en" target="blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </footer>
+    
+    </div>
+  
+  
+    <div class="right">
+      
+      <div class="small-screen-img">
+        <div class="dark-curtain">
+          <div class="beside-logo">
+
+            <div class="search-shopping">
+              <div class="search-container">
+                <input class="search" type="text" placeholder="Search..">
+                <a class="search-icon" href='#'>
+                  <i class="fas fa-search"></i>
+                </a> 
+              </div> 
+              <!-- <div class="shopping-cart"> . . .
+                <a href='#'><i class="fas fa-shopping-cart"></i></a> 
+              </div>          -->
+            </div>
+    
+          </div>
+      
+          <div class='right-nav-bar'>  
+            <form action="" id="sign-in">
+              <div>
+                <label class="field-title" for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required placeholder="Enter your name here">
+              </div>
+      
+              <div>
+                <label class="field-title" for="pass">Password:</label><br>
+                <input type="password" id="pass" name="password"
+                    minlength="8" required>
+              </div>
+      
+              <input class="sign-button" type="submit" value="Sign in">
+            
+              <p class="forgot"><a href='#'>Forgot Password?</a></p> 
+    
+              <p class="field-title">New user:</p>
+            
+              <input class="sign-button" type="submit" value="Sign up!">
+            
+            </form>  
+          </div>
+    
+  
+      </div>
+
+      </div> 
+      <div class="small-screen-footer">
+        <ul class='navbar1 bottom'> 
+          <li><a href="./partners.html">LOCAL PARTNERS </a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./about.html">ABOUT US</a></li>
+        </ul>
+        <!-- <div class='social-media-small' >
+          <a class="individual-social-link" href="# " target="blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a class="individual-social-link" href="#" target="blank">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+          <a class="individual-social-link" href="#" target="blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div> -->
+      </div> 
+
+    </div>
+
+
+
+</div>
+<script src="./nav.js"></script>
+<script src="./homepage-cart.js"></script>
+
+</body>

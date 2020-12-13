@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7b499d65cc.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="CSS/shop.css">
+  <title>Local: Contacts</title>
+</head>
+
+<body>
+  <p class="free-delivery"><i class="fas fa-shipping-fast"></i> Free Delivery to Delta and Richmond</p>
+
+  <div class="header">
+
+    <div class='logo-div'>
+      <a href="index.html"><img src="images/logo.svg" alt="The Local Logo" /></a>
+    </div>
+
+    <nav class='main-nav-bar'>
+      <ul class="primary-nav">
+        <!-- <li><a href='#'>Deals</a></li> -->
+
+        <li class="secondary-nav-container"><a href="#" id="shop">Shop</a>
+          <ul class="secondary-nav">
+            <li><a href="./shop.html">Groceries</a></li>
+            <li><a href="./shop.html">Electronics</a></li>
+            <li><a href="./shop.html">Beauty</a></li>
+          </ul>
+        </li>
+        <li><a href='./delivery.html'>Delivery</a></li>
+        <!-- <li><a href='./payment.html'>Payment</a></li> -->
+        <li><a href='./membership.html'>Membership</a></li>
+        <li><a href='./contacts.html'>Contacts</a></li>
+        <!-- <li><a class="number" href="#">
+              <i class="fas fa-shopping-cart"></i>
+              <p id="items-num"></p>
+            </a></li> -->
+      </ul>
+    </nav>
+  </div>
+  <main class="contacts-pge">
+    <div class="contact-us">
+      <form class="contact-form" action="submit">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="John Doe"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="johndoe@email.com"><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="messge" cols="30" rows="10" placeholder="write your message here"></textarea>
+      </form>
+      <div class='social-media-links'>
+        <a class="individual-social-link" href="https://www.facebook.com/" target="blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a class="individual-social-link" href="https://www.instagram.com/" target="blank">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+        <a class="individual-social-link" href="https://twitter.com/home?lang=en" target="blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+
+    </div>
+    <div class="location">
+      <div class="address">
+        <h2>The Local</h2>
+        <div class="address">
+          <p>5438 Wildwood Crescent</p>
+          <p>Delta, BC</p>
+          <p>V4M 3S9</p>
+        </div>
+
+        <div class="phone-email">
+          <p><i class="fas fa-phone-square-alt"></i> +12368689921</p>
+          <p><i class="far fa-envelope"></i> admin@thelocal.com</p>
+        </div>
+
+      </div>
+      <div id="map">
+        <iframe width="600" height="450" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJk-2ncvPmhVQRCAy4XIv1ZzE&key=AIzaSyBO43HQ-6xHmSEoSObAKskEHiKjGrAWJPo"
+          allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <ul class='foot-navbar'> 
+      <li><a href="./partners.html">LOCAL PARTNERS </a></li>
+      <li><a href="./faq.html">FAQ</a></li>
+      <li><a href="./about.html">ABOUT US</a></li>
+    </ul>
+  </footer>
+
+  <script src="nav.js"></script>
+</body>
+
+</html>
