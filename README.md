@@ -1,2 +1,2 @@
-# the-lcoal
+# the-local
 e-commerce website
